@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Yuan Feng
-subtitle: Master of Data Science, Duke University
+title: Hi! I'm Yuan 
+subtitle: Tech and Computer Science enthusiast
 ---
-
-![Yuan](https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/600.jpg)
+- Former Software Engineer at Levels.fyi 
+- Data Engineer at Amazon & Lenovo.
+![Yuan](https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/600.jpg?style=centerme)
 
 ### My story
 
