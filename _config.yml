@@ -16,9 +16,9 @@ author: Yuan Feng - Current NLP Research Assistant at Credit Suisse. Former Soft
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  My Stories: "https://deanattali.com"
+    - Detecting Solar Panels From Satellite Imagery: "https://beautifuljekyll.com"
+    - What to Eat - AI mobile app for recommendation  : "https://www.markdowntutorial.com/"
+  My Stories: "https://yuan-feng1.github.io/#about"
 
 # --- Logo --- #
 
@@ -63,7 +63,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: 
 
 # --- General options --- #
 
