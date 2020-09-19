@@ -16,7 +16,7 @@ author: Yuan Feng - Duke University
 navbar-links:
   About Me: "aboutme"
   My Stories: "https://yuan-feng1.github.io"
-  LinkedIn:"https://www.linkedin.com/in/yuanfeng11/"
+  LinkedIn: "https://www.linkedin.com/in/yuanfeng11/"
   Projects:
     - Detecting Solar PV in Aerial Imagery : "https://yuanfeng2.github.io/2020-04-10-SolarPanel.md/"
     - What to Eat - AI mobile recommender  : "https://yuanfeng2.github.io/2020-08-09-What-to-Eat.md/"
@@ -45,6 +45,7 @@ social-network-links:
   github: https://github.com/yuanfeng2
   linkedin: https://www.linkedin.com/in/yuanfeng11/
   telephone: +19196387573
+  
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -65,7 +66,6 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-#rss-description: Current Research Assistant at Credit Suisse. Former Software Engineer at Levels.fyi / Data Engineer at Amazon & Lenovo.
 
 # --- General options --- #
 
