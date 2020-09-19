@@ -4,7 +4,7 @@ title: Yuan Feng
 subtitle: Master of Data Science, Duke University
 ---
 
-![Yuan](https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/600.jpeg){: .center-block :}
+![Yuan](https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/400.jpg){: .center-block :}
 
 ### My story
 
