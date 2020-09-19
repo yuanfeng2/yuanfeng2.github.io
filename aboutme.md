@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Karen(Yuan) Feng
+title: Yuan Feng
 subtitle: Master of Interdisciplinary Data Science, Duke University
 ---
 
+![Yuan](https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/assets/img/yuanfeng.jpeg){: .center-block :}
 
 ### My story
 
