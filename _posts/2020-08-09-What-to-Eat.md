@@ -2,7 +2,9 @@
 layout: post
 title: What to Eat: AI mobile Restaurant Recommender
 subtitle: 
-gh-repo: daattali/beautiful-jekyll
+cover-img: /assets/img/ham.png
+thumbnail-img: /assets/img/ham.png
+share-img: /assets/img/path.jpg
 ---
 
 
