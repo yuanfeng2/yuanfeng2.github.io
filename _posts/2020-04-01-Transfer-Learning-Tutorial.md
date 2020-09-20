@@ -1,12 +1,11 @@
 ---
 layout: post
-title: What to Eat: Transfer-Learning-Tutorial
+title: Transfer-Learning-Tutorial
 subtitle: 
 cover-img: /assets/img/tl.png
 thumbnail-img: /assets/img/tl.png
-share-img: /assets/img/tl.jpg
+share-img: /assets/img/path.jpg
 ---
-
 
 ## Summary
 
