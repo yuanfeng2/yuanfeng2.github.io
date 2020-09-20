@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/tl.png
 share-img: /assets/img/path.jpg
 ---
 
+This tutorial explains the concepts and motivations behind transfer learning and seeks to provide an example of the technique used in practice.
+
 ## Summary
 
 In the supervised learning context, deep neural networks have become more and more accurate in recent years. Convolutional neural networks using a residual learning network are particularly good at finding the optimal model parameters while improving accuracy. However, it is not possible to apply these deep models into a different situation or phenomena other than what they were trained and designed for. It is important to have this flexibility in real-world scenarios where we rarely encounter data structured in the same way as our training data. Transfer learning allows us to transfer some of the information learned from an ideal situation into a different and related situation for which our data is more limited.
