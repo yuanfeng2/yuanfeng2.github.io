@@ -14,13 +14,13 @@ author: Yuan Feng - Duke University
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  My Stories: "https://yuan-feng1.github.io"
-  LinkedIn: "https://www.linkedin.com/in/yuanfeng11/"
+  About Me: "aboutme"  
   Projects:
     - Detecting Solar PV in Aerial Imagery : "https://yuanfeng2.github.io/2020-04-10-SolarPanel/"
     - What to Eat - AI mobile recommender  : "https://yuanfeng2.github.io/2020-08-09-Eat-Now/"
     - Original Transfer-Learning-Tutorial : "https://yuanfeng2.github.io/2020-04-01-Transfer-Learning-Tutorial/"
+   LinkedIn: "https://www.linkedin.com/in/yuanfeng11/"
+   My Stories: "https://yuan-feng1.github.io"
   
   
 # --- Logo --- #
