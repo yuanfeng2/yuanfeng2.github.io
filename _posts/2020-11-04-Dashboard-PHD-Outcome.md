@@ -46,7 +46,7 @@ Overall, the number of PHDs recipients and this trend is seemingly to maintain, 
 
 ## Dash Code
 
-Overall, the code style in Dash is similar to other plotting packages. There are plenty of tutorials on plotly official website for Python implementation of Dash. Following is a part of my full code, that calls the part of figure and place them onto the Dashboard.
+Overall, the code style in Dash is similar to other plotting packages. There are plenty of tutorials on plotly official website for Python implementation of Dash. Following is a part of my full code, that calls the part of figure and place them onto the the dashboard.
 
 ```bash
 app.layout = html.Div([
