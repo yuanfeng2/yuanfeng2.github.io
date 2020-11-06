@@ -17,7 +17,8 @@ Dash is a Open Source Python library for creating reactive, Web-based applicatio
 
 ## Analysis
 
-There are three plots included in this Dashboard. I included screenshots in this post. For the interactive version, the implementation is [here](http://noafeng72.pythonanywhere.com).
+There are three plots included in this Dashboard. I included screenshots in this post. For the interactive version.
+Dashboard here](http://noafeng72.pythonanywhere.com).
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d3.png" >
@@ -41,7 +42,21 @@ This table illustrates the debt situation of PHDs from 2008 to 2017. The majorit
 This table illustrates the number of PHDs recipients from 2008 to 2017. We can see from the plot for each field, the number of PHDs recipients are increasing. To be more specific, the area of life sciences has the biggest increase, this is a sign of scientific focus of the US society in life science areas such as healthcare.
 Overall, the number of PHDs recipients and this trend is seemingly to maintain, I can estimate that there will be more PHDs in the following years.
 
-## Implementation
+## Dash Code
+
+
+
+## Deployment
+
+One easy approach is to use:[pythonanywhere](https://www.pythonanywhere.com/). I followed [this](https://towardsdatascience.com/the-easiest-way-to-deploy-your-dash-app-for-free-f92c575bb69e) introduction on Medium.
+
+First, we need to sign up to pythonanywhere.com by creating a Beginner account. On the top bar go to Web > Add a new web app, the select Flask as the Python Web framework. You need to choose the version of Python that works best for your peoject.
+
+The next step is uploading the python file. On the top bar go to Files and, in the Directories sidebar, click on mysite/. You'll find a file named flask_app.py inside. You can delete the default empty python file.
+
+The third step is to install the dependencies. On the Consoles tap, we’ll find the Bash console, this is the same as well as the Python console. Then we can start uploading the files we generated.
+
+Last step is to change the code in Web and in the Code section after opening the WSGI configuration file based on your code and board implementation. 
 
 
 The dashboard report can be found [here](http://noafeng72.pythonanywhere.com).
