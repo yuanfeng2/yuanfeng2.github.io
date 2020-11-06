@@ -7,34 +7,41 @@ thumbnail-img: /assets/img/tl2.png
 share-img: /assets/img/path.jpg
 ---
 
+## PHD in US
+
+This dataset comes from [PhDs awarded in the US](https://ncses.nsf.gov/pubs/nsf19301/survey-description). It collects data on the number and characteristics of individuals receiving research doctoral degrees from U.S. academic institutions. Based on its official website, this survey included surveys from individuals receiving a research doctorate from a U.S. academic institutions in various fields.
+
 ## Dash & Plotly
 
 Dash is a Open Source Python library for creating reactive, Web-based applications. Dash is a user interface library for creating analytical web applications. Those who use Python for data analysis, data exploration, visualization, modelling, instrument control, and reporting will find immediate use for Dash.
 
-## Summary
+## Analysis
 
-In the supervised learning context, deep neural networks have become more and more accurate in recent years. Convolutional neural networks using a residual learning network are particularly good at finding the optimal model parameters while improving accuracy. However, it is not possible to apply these deep models into a different situation or phenomena other than what they were trained and designed for. It is important to have this flexibility in real-world scenarios where we rarely encounter data structured in the same way as our training data. Transfer learning allows us to transfer some of the information learned from an ideal situation into a different and related situation for which our data is more limited.
+There are three plots included in this Dashboard. I included screenshots in this post. For the interactive version, the implementation is [here](http://noafeng72.pythonanywhere.com).
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d1.png" >
+<img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d3.png" >
   <p>Dashboard Table 1</p>
 </div>
 
-
-## PHD in US
-
-This dataset comes from [PhDs awarded in the US](https://ncses.nsf.gov/pubs/nsf19301/survey-description). It collects data on the number and characteristics of individuals receiving research doctoral degrees from U.S. academic institutions. Based on its official website, this survey included surveys from individuals receiving a research doctorate from a U.S. academic institutions in various fields.
+This table illustrates the median salary of PHDs in 2017. As we could see, there is a quite large between different fields. The salaries in Math & CS are higher than the rest of areas overall sectors, and PHDs who work in the industry have higher salaries than rest of sectors overall. 
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d2.png" >
   <p>Dashboard Table 2</p>
 </div>
 
+This table illustrates the debt situation of PHDs from 2008 to 2017. The majority of PHDs have no debts, while there are significant number of PHDs who have quite high debts (over 30,000 USD) in their course of PHD study. Based on this graph, the financial situation of PHDs is overall stable.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d3.png" >
+<img src="https://raw.githubusercontent.com/yuanfeng2/yuanfeng2.github.io/master/assets/img/d1.png" >
   <p>Dashboard Table 3</p>
 </div>
+
+This table illustrates the number of PHDs recipients from 2008 to 2017. We can see from the plot for each field, the number of PHDs recipients are increasing. To be more specific, the area of life sciences has the biggest increase, this is a sign of scientific focus of the US society in life science areas such as healthcare.
+Overall, the number of PHDs recipients and this trend is seemingly to maintain, I can estimate that there will be more PHDs in the following years.
+
+## Implementation
 
 
 The dashboard report can be found [here](http://noafeng72.pythonanywhere.com).
