@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/tl2.png
 share-img: /assets/img/path.jpg
 ---
 
+Online dashboard can be found [here](http://noafeng72.pythonanywhere.com).
+
 ## PHD in US
 
 This dataset comes from [PhDs awarded in the US](https://ncses.nsf.gov/pubs/nsf19301/survey-description). It collects data on the number and characteristics of individuals receiving research doctoral degrees from U.S. academic institutions. Based on its official website, this survey included surveys from individuals receiving a research doctorate from a U.S. academic institutions in various fields.
@@ -44,7 +46,28 @@ Overall, the number of PHDs recipients and this trend is seemingly to maintain, 
 
 ## Dash Code
 
+Overall, the code style in Dash is similar to other plotting packages. There are plenty of tutorials on plotly official website for Python implementation of Dash. Following is a part of my full code, that calls the part of figure and place them onto the Dashboard.
 
+```bash
+app.layout = html.Div([
+    html.H1(children='Dashboard on Science & Engineering Doctorates'),
+    dcc.Graph(id="fig22"),
+    dcc.Graph(
+        id='bar1'
+    ),
+    dcc.Slider(
+        id='year1',
+        min=2008,
+        max=2017,
+        value=2008,
+        marks={str(year): str(year) for year in year_unique},
+        step=None
+    ),
+    dcc.Graph(
+        id='Number of Doctorate recipients 1987 - 2007',
+        figure=fig11
+    )
+```
 
 ## Deployment
 
@@ -58,5 +81,3 @@ The third step is to install the dependencies. On the Consoles tap, we’ll find
 
 Last step is to change the code in Web and in the Code section after opening the WSGI configuration file based on your code and board implementation. 
 
-
-The dashboard report can be found [here](http://noafeng72.pythonanywhere.com).
